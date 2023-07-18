@@ -1,11 +1,11 @@
 WIFI-TON
 WIFI-TON es una herramienta de Wi-Fi hacking que permite escanear redes Wi-Fi, detectar dispositivos conectados a una red y realizar ataques de fuerza bruta para intentar acceder a redes Wi-Fi protegidas.
 
-Instalación
-Clona el repositorio de WIFI-TON en tu máquina local:
+InstalaciÃ³n
+Clona el repositorio de WIFI-TON en tu mÃ¡quina local:
 shell
 Copy code
-git clone https://github.com/tu_usuario/WIFI-TON.git
+git clone 
 Navega al directorio del proyecto:
 shell
 Copy code
@@ -14,8 +14,8 @@ Instala las dependencias necesarias utilizando pip:
 shell
 Copy code
 pip install -r requirements.txt
-Ejecución
-Asegúrate de estar en el directorio del proyecto WIFI-TON:
+EjecuciÃ³n
+AsegÃºrate de estar en el directorio del proyecto WIFI-TON:
 shell
 Copy code
 cd WIFI-TON
@@ -24,27 +24,27 @@ shell
 Copy code
 python main.py
 Uso
-Al ejecutar el script main.py, se presentará un menú con diferentes opciones:
+Al ejecutar el script main.py, se presentarÃ¡ un menÃº con diferentes opciones:
 
-Escaneo de red: Esta opción permite escanear una red local para detectar los dispositivos conectados a ella. El script mostrará una tabla con la dirección IP, dirección MAC y fabricante de cada dispositivo detectado.
+Escaneo de red: Esta opciÃ³n permite escanear una red local para detectar los dispositivos conectados a ella. El script mostrarÃ¡ una tabla con la direcciÃ³n IP, direcciÃ³n MAC y fabricante de cada dispositivo detectado.
 
-Detección de redes Wi-Fi: Esta opción realiza un escaneo de las redes Wi-Fi disponibles en el área. Se mostrará una tabla con el número de red, el SSID, la dirección BSSID y la fuerza de la señal de cada red encontrada.
+DetecciÃ³n de redes Wi-Fi: Esta opciÃ³n realiza un escaneo de las redes Wi-Fi disponibles en el Ã¡rea. Se mostrarÃ¡ una tabla con el nÃºmero de red, el SSID, la direcciÃ³n BSSID y la fuerza de la seÃ±al de cada red encontrada.
 
-Selecciona la opción deseada ingresando el número correspondiente. Para cancelar y salir del programa, ingresa 0 en cualquier momento.
+Selecciona la opciÃ³n deseada ingresando el nÃºmero correspondiente. Para cancelar y salir del programa, ingresa 0 en cualquier momento.
 
-Si seleccionas la opción de escaneo de red, se te pedirá ingresar la dirección IP del router de tu red local. Después de cada escaneo, tendrás la opción de regresar al menú principal o continuar con un nuevo escaneo.
+Si seleccionas la opciÃ³n de escaneo de red, se te pedirÃ¡ ingresar la direcciÃ³n IP del router de tu red local. DespuÃ©s de cada escaneo, tendrÃ¡s la opciÃ³n de regresar al menÃº principal o continuar con un nuevo escaneo.
 
-Si seleccionas la opción de detección de redes Wi-Fi, se mostrará una lista de las redes encontradas. Podrás seleccionar una red específica ingresando su número y también deberás proporcionar una lista de contraseñas en un archivo de texto para realizar un ataque de fuerza bruta. El script intentará conectar a la red seleccionada utilizando las contraseñas de la lista. Al finalizar, se mostrará si se encontró la contraseña correcta o no.
+Si seleccionas la opciÃ³n de detecciÃ³n de redes Wi-Fi, se mostrarÃ¡ una lista de las redes encontradas. PodrÃ¡s seleccionar una red especÃ­fica ingresando su nÃºmero y tambiÃ©n deberÃ¡s proporcionar una lista de contraseÃ±as en un archivo de texto para realizar un ataque de fuerza bruta. El script intentarÃ¡ conectar a la red seleccionada utilizando las contraseÃ±as de la lista. Al finalizar, se mostrarÃ¡ si se encontrÃ³ la contraseÃ±a correcta o no.
 
-Después de cada operación, se te dará la opción de intentar nuevamente o volver al menú principal.
+DespuÃ©s de cada operaciÃ³n, se te darÃ¡ la opciÃ³n de intentar nuevamente o volver al menÃº principal.
 
 Requisitos
 Python 3.6 o superior
 Bibliotecas y dependencias especificadas en el archivo requirements.txt
 Notas adicionales
-Ten en cuenta que el uso de esta herramienta para acceder a redes Wi-Fi protegidas sin autorización es ilegal y está sujeto a las leyes y regulaciones de tu país. Utiliza esta herramienta solo con fines educativos o en redes en las que tengas permiso explícito para realizar pruebas de seguridad.
+Ten en cuenta que el uso de esta herramienta para acceder a redes Wi-Fi protegidas sin autorizaciÃ³n es ilegal y estÃ¡ sujeto a las leyes y regulaciones de tu paÃ­s. Utiliza esta herramienta solo con fines educativos o en redes en las que tengas permiso explÃ­cito para realizar pruebas de seguridad.
 
-El desarrollador de esta herramienta no se hace responsable de ningún uso indebido o ilegal de la misma.
+El desarrollador de esta herramienta no se hace responsable de ningÃºn uso indebido o ilegal de la misma.
 
 
 

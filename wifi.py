@@ -39,6 +39,9 @@ def connect_to_network(network, wordlist_file):
         iface.connect(profile)
         time.sleep(1)  # Wait for the connection attempt to complete
 
+        # Change the position of the status check
+        time.sleep(6)  # Wait longer for the connection attempt to complete
+
         if iface.status() == const.IFACE_CONNECTED:
             print("Correct password found: " + password)
             return True

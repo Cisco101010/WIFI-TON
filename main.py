@@ -129,7 +129,7 @@ $$  /   \$$ $$$$$$\$$ |     $$$$$$\     $$ |   $$$$$$  $$ | \$$ |
 """
 
     lorem_paragraph = "Hola te saluda Wi-Fi-BOM una herramienta de Wi-Fi hack compilada por Cisco101. " \
-                      "Selecciona una de las siguientes opciones  HAPPY HACKING!"
+                    "Selecciona una de las siguientes opciones  HAPPY HACKING!"
     animate_typing(lorem_paragraph, delay=0.03)
 
     print(banner)
